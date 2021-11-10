@@ -18,7 +18,6 @@ def run_length_encoding(seq):
 
     return compressed_seq
 
-
-#seq = 'AACCCBBBBBAAAAFFFFFFFF'
-#list1 = run_length_encoding(seq)
-#print(list1)
+seq = input("Intorduce a sequence : e.g. AACCCBBBBBAAAAFFFFFFFF \n")
+list1 = run_length_encoding(seq)
+print("Sequence after encoding: ", list1)
